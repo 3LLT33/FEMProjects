@@ -26,6 +26,7 @@ img {
 
 .text-heavy {
     text-align: center;
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
 }
