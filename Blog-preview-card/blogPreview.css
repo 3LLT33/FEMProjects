@@ -28,6 +28,27 @@ body {
     font-weight: 900;
 }
 
+h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.main {
+    color: hsl(0, 0%, 50%);
+}
+
+.hooper {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+}
+
+#hoopic {
+    height: 2em;
+    width: 2em;
+    margin-right: 1em;
+}
+
 .attribution {
     font-size: 11px; text-align: center;
     }
