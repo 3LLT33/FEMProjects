@@ -12,16 +12,22 @@ body {
 }
 
 .sedans {
+    display: flex;
+    flex-direction: column;
     padding: 2em;
     background-color :hsl(31, 77%, 52%);
 }
 
 .suvs {
+    display: flex;
+    flex-direction: column;
     padding: 2em;
     background-color: hsl(184, 100%, 22%);
 }
 
 .luxury {
+    display: flex;
+    flex-direction: column;
     padding: 2em;
     background-color: hsl(179, 100%, 13%);
 }
@@ -80,7 +86,9 @@ p {
 @media screen and (min-width: 600px) {
     .content {
         max-width: 1440px;
+        margin: auto;
         display: flex;
+        flex: 1 1 auto;
         flex-direction: row;
         justify-content: center;
         align-items: stretch;
