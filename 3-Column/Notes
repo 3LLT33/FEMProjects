@@ -1,0 +1,3 @@
+I have to make the separate boxes a flex item.
+The text and the button have to be their own flex item within that.
+	Text grows and the button remains on the bottom.
