@@ -44,3 +44,20 @@ img {
 .purple {
     color: hsl(277, 64%, 61%)
 }
+
+.main-para {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1; /*This is fucked up */
+}
+
+.caps {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+}
